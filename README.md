@@ -36,7 +36,7 @@ Two models were developed:
 **Source:**  
 - [Xeno-Canto Bird Recordings Extended (A–M)](https://www.kaggle.com/datasets/rohanrao/xeno-canto-bird-recordings-extended-a-m)
 - Training data on spectrograms of 10 mp3 sound clips of various lengths for each of 12 bird species [Spectrograms.h5](https://drive.google.com/file/d/1Fb9rIEbgg-eJGfzbiDqBsOP98Mvf0N0L/view?usp=sharing) 
-- Test data on 3 unlabeled mystery bird call clips are available in the repo named as [test_birds.zip](test_birds.zip)
+- Test data on 3 unlabeled mystery bird call clips are available in the repo named as [test_birds.zip]([test_birds.zip](https://github.com/Sushmithameduri/Seattle-Bird-Species-Sound-Classification/blob/main/test_birds.zip))
 
 **Provided via:** Seattle University Canvas platform  
 **Data format:** HDF5 (`.h5`) spectrograms derived from 10 sound clips per species.  
