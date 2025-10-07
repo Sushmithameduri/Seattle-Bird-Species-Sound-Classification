@@ -196,7 +196,7 @@ pip install numpy pandas tensorflow keras matplotlib librosa h5py scikit-learn
    cd Sushmithameduri/Seattle-Bird-Species-Sound-Classification
    ```
 3. Run the notebook or script
-   *Open **Bird_Sound_Prediction_Code.ipynb** in Google Colab or Jupyter.
+   * Open **Bird_Sound_Prediction_Code.ipynb** in Google Colab or Jupyter.
    ```bash
    python Birds_Sound_Prediction_Code.iynb
    ```
