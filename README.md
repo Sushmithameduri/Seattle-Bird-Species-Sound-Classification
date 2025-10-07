@@ -18,8 +18,7 @@ This project explores the application of **Convolutional Neural Networks (CNNs)*
 8. [Discussion](#-discussion)
 9. [Dependencies](#-dependencies)
 10. [Usage](#-usage)
-11. [Limitations & Future Work](#-limitations--future-work)
-12. [References](#-references)
+11. [Contact](#-contact)
 
 ---
 
@@ -138,7 +137,7 @@ Best results achieved with:
 
 ---
 
-## 🎙️ External Test Predictions
+##  External Test Predictions
 
 | Audio File | Predicted Species | Multiple Birds? | Reasoning |
 |-------------|------------------|-----------------|------------|
@@ -165,8 +164,61 @@ Support Vector Machines (SVMs), Random Forests, and Recurrent Neural Networks (R
 
 ---
 
+
 ## 🧩 Dependencies
 
 Install required packages using:
 ```bash
 pip install numpy pandas tensorflow keras matplotlib librosa h5py scikit-learn
+```
+
+#### Key Libraries Used:
+ * TensorFlow / Keras – model creation and training
+
+* librosa – audio analysis and spectrogram generation
+
+* h5py – HDF5 data handling
+
+* matplotlib – data visualization
+
+## 🚀 Usage
+
+1. Prepare data
+
+   * Download the HDF5 spectrogram dataset.
+   *  Place in working directory as spectrograms.h5.
+
+2. Clone Repository
+   ```bash
+   git clone https://github.com/Sushmithameduri/Seattle-Bird-Species-Sound-Classification
+   cd Sushmithameduri/Seattle-Bird-Species-Sound-Classification
+   ```
+3. Run the notebook or script
+   *Open "Bird_Sound_Prediction_Code.ipynb" in Google Colab or Jupyter.
+   ```bash
+   python Birds_Sound_Prediction_Code.iynb
+   ```
+   * Update file paths to point to spectrograms.h5 https://drive.google.com/file/d/1Fb9rIEbgg-eJGfzbiDqBsOP98Mvf0N0L/view?usp=sharing.
+   * Execute cells to train models and generate plots.
+
+4. Predict External Audio
+   * Place mp3 files in the /test_birds/ folder.
+   * Run the inference section to classify each clip.
+
+5. View results
+   * Predicted species will print to console and optionally save to CSV.
+
+
+## 📈 Insights & Learnings
+
+* CNNs are effective for audio-to-image transformations like spectrograms.
+* Model interpretability through confusion matrices and spectrogram analysis helps identify misclassification causes.
+* Hardware limitations affect training time — model tuning should balance performance with efficiency.
+* Future enhancements: multi-label classification, transfer learning (ResNet / VGG), or integrating RNN + CNN hybrids.
+
+## 📬 Contact
+
+### Sushmitha Meduri
+1. 📧 Email: sivasushmithameduri@gmail.com
+2. 🔗 LinkedIn: https://www.linkedin.com/in/sushmitha-meduri/
+3. 💻 GitHub: https://github.com/Sushmithameduri/
