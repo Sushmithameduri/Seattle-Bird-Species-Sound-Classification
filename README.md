@@ -196,15 +196,15 @@ pip install numpy pandas tensorflow keras matplotlib librosa h5py scikit-learn
    cd Sushmithameduri/Seattle-Bird-Species-Sound-Classification
    ```
 3. Run the notebook or script
-   *Open "Bird_Sound_Prediction_Code.ipynb" in Google Colab or Jupyter.
+   *Open **Bird_Sound_Prediction_Code.ipynb** in Google Colab or Jupyter.
    ```bash
    python Birds_Sound_Prediction_Code.iynb
    ```
-   * Update file paths to point to spectrograms.h5 https://drive.google.com/file/d/1Fb9rIEbgg-eJGfzbiDqBsOP98Mvf0N0L/view?usp=sharing.
+   * Update file paths to point to **spectrograms.h5**.
    * Execute cells to train models and generate plots.
 
 4. Predict External Audio
-   * Place mp3 files in the /test_birds/ folder.
+   * Place mp3 files in the **/test_birds/** folder.
    * Run the inference section to classify each clip.
 
 5. View results
